@@ -1,0 +1,11 @@
+steps of execution:
+•	In this code, we first import the pandas library. Then, we use the `read_excel()` function to load the two Excel files into separate dataframes (`df1` and `df2`).
+
+•	Next, we merge the dataframes using the `concat()` function, which concatenates the rows of the two dataframes vertically.
+
+•	Finally, we save the merged dataframe as a CSV file using the `to_csv()` function. The `index=False` parameter ensures that the index column is not included in the CSV file.
+
+•	Make sure to replace `'file1.xlsx'` and `'file2.xlsx'` with the actual file paths of the Excel files you want to merge. Similarly, you can replace `'merged.csv'` with the desired name and path for the output CSV file.
+
+•	By following these steps, you should be able to merge the Excel files and save the merged data as a new CSV file.
+
